@@ -1,0 +1,248 @@
+.vh-100-2 {
+    min-height: 100vh;
+}
+.color1 {
+    color: #AA6D1E;
+}
+.color2 {
+    color: #333333;
+}
+
+/* modal */
+
+@media(min-width: 576px) {
+    .modal-dialog{
+        max-width: 800px!important;
+    }
+}
+
+/* laoding */
+body {
+    overflow-x: hidden;
+}
+/* .img-loading-desc {
+    max-width: 150px;
+} */
+.loadingIcon2 {
+    background: url('../img/img7.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    z-index: 9999;
+}
+.loadingIcon2.true {
+    transition: 1.25s;
+    transform: translateY(-100%);
+}
+.bg-loadingIcon2  {
+    background: linear-gradient(rgba(248, 248, 248, 0.562),  rgb(255, 255, 255));
+}
+.desc-text {
+    z-index: 999;
+}
+.buttonClick {
+    cursor: pointer;
+    transition: 0.25s;
+    color: white;
+    background-color: rgb(145, 83, 25);
+    font-size: 25px;
+}
+img.img-loading-top {
+    margin-top: -500px;
+}
+img.img-loading-top-2 {
+    margin-top: -600px;
+}
+
+button.buttonClick:focus {
+    transform: scale(0.95);
+}
+
+/* audio-control */
+.audio-control {
+    height: 50px;
+    width: 50px;
+    background: orange;
+    right: 10px;
+    bottom: 10px;
+    position: absolute;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.25s;
+    border: none;
+}
+.audio-control:hover{
+    transform: scale(0.9);
+    background: rgb(223, 135, 3);
+}
+.audio-control svg {
+    font-size: 25px;
+    margin-left: 2px;
+    color: white;
+}
+
+/* banner */
+.banner {
+    background: url('../img/img7.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* gambar default (gambar pertama), gambar di atur di src/js/script.js */
+    transition: 0.75s;
+}
+.banner-main {
+    position: absolute;
+    top: 0;
+    z-index: 9;
+    margin-top: 40vh;
+}
+.banner-overlay {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.116), rgb(255, 255, 255));
+}
+@media (max-width: 800px) {
+    .banner-main {
+        margin-top: 55vh;
+    }
+}
+.banner-bottom svg{
+    position: absolute;
+    bottom: 0;
+    z-index: 9;
+}
+.svg-banner {
+    margin-bottom: -10px;
+}
+
+/* content1 */
+.content1 {
+    z-index: 9;
+    overflow-x: hidden;
+}
+
+/* timer */
+.timer .img-border-top,
+.timer .img-border-bottom{
+    max-width: 500px;
+    margin: 0 auto;
+}
+.timer-part {
+    width: 100px;
+    border-radius: 20px;
+    color: rgb(151, 95, 12);
+}
+/* content1 */
+.p-content {
+    max-width: 800px;
+}
+.content1 img.icon {
+    width: 100%;
+    max-width: 100px;
+}
+.img-content1 {
+    width: 180px!important;
+    height: 180px;
+}
+.content1-img-border {
+    left: 0px;
+    width: 100%;
+    top: -10px;
+}
+.img-person-1,
+.img-person-2 {
+    width: 200px;
+    max-width: 200px!important;
+    background-position: center!important;
+    background-size: cover!important;
+    background-repeat: no-repeat!important;
+}
+.img-person-1 {
+    background: url('../img/img4.png');
+}
+.img-person-2 {
+    background: url('../img/img5.png');
+}
+.content1-before-img {
+    width: 200px;
+}
+
+/* content2 */
+.content2 {
+    background: url('../img/img6.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.content2-background2 {
+    background: rgba(255, 255, 255, 0.801);
+}
+.content2-main {
+    max-width: 600px;
+}
+.content2-main .img-border img{
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.content2-main .content-2-desc  {
+    z-index: 99;
+}
+.content2-up {
+    background: linear-gradient( white, rgba(255, 255, 255, 0));
+    min-height: 30vh;
+    position: absolute;
+    top: 0;
+}
+.content2-bottom {
+    background: linear-gradient(rgba(255, 255, 255, 0), white);
+    min-height: 30vh;
+    position: absolute;
+    bottom: 0;
+}
+.content2-container {
+    z-index: 99;
+}
+.content2 .buttonMaps {
+    max-width: 250px;
+    background: #333333;
+}
+
+/* content3  */
+.content3-main {
+    max-width: 800px;
+}
+
+/* gallery */
+.gallery .col {
+    position: relative;
+}
+.gallery .col  .img-hover {
+    position: absolute;
+    width: 98%;
+    height: 100%;
+    z-index: 9;
+    cursor: pointer;
+    transition: 0.25s;
+}
+.gallery .col  .img-hover:hover {
+    background: rgba(0, 0, 0, 0.281);
+}
+
+/* video */
+.video .video-main {
+    max-width: 500px;
+}
+
+/* content4 */
+.content4-main-content {
+    max-width: 800px;
+}
+
+.content4-main-content  .col .icon-svg{
+    background: #AA6D1E;
+    border-radius: 50%;
+    padding: 25px;
+}

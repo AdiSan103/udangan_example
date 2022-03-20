@@ -1,0 +1,29 @@
+/* alex brush */
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+.alexBrush {
+    font-family: 'Alex Brush', cursive;
+}
+
+/* crimson Text */
+.dancingScript {
+    font-family: 'Dancing Script', cursive;
+}
+
+/* numans */
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+.spaceMono {
+    font-family: 'Space Mono', monospace;
+}
+
+/* alice */
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+.alice {
+    font-family: 'Alice', serif;
+}
+
+/* montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}

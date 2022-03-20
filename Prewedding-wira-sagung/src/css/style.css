@@ -1,0 +1,296 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* color */
+.bg-colorMake {
+  background-color: #ffac5a;
+}
+
+.font-colorMake {
+  color: #ffac5a;
+}
+
+.bg-colorMake2 {
+  background-color: #e8dfd6;
+}
+
+/* loading */
+
+.bg-loadingIcon2 {
+  background: url(../img/gallery/EBP_2071.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.click {
+  box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.4);
+  transition: 0.2s;
+}
+.click:hover {
+  transform: scale(1.1);
+  color: #ffac5a;
+  box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.4);
+}
+
+.click:active {
+ transform: scale(0.9);
+}
+.loadingIcon2 {
+  z-index: 999;
+  transition: 1s;
+}
+.loadingIcon2.start {
+  transition: 1s;
+  opacity: 0;
+}
+.loadingIcon2.middle {
+  opacity: 1;
+}
+.loadingIcon2.end {
+  transition: 2s !important;
+  transform: translateY(80vh);
+  opacity: 0 !important;
+}
+
+/* banner */
+.banner {
+  height: 100vh;
+  background: url(../img/photo1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+}
+
+nav {
+  position: fixed !important;
+  z-index: 999;
+  background: linear-gradient(rgb(0, 0, 0), rgba(255, 255, 255, 0));
+}
+
+.title {
+  z-index: 2;
+}
+
+.display-5 {
+  font-size: 4rem;
+  margin-top: 100px;
+}
+
+.display-6 {
+  font-size: 2rem;
+}
+
+.display-8 {
+  font-size: 1rem;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  display: flex;
+  z-index: 999 !important;
+}
+
+.navStyle:hover {
+  transition: 0.25s;
+  transform: scale(1.1);
+  border-bottom: 1px solid white;
+}
+
+.navStyle:active {
+  transform: scale(0.9);
+}
+
+/* content2 */
+.box1 {
+  width: 2000px;
+  height: 100%;
+  background-color: #e8dfd6;
+  top: -100px;
+  right: -50px;
+  z-index: -1;
+}
+
+.lineBox1 {
+  width: 100px;
+  height: 5px;
+  background-color: #ffac5a;
+  margin-bottom: 20px;
+}
+
+.box2 {
+  width: 50%;
+  height: 70%;
+  background-color: #e8dfd6;
+  z-index: -1;
+  bottom: 50px;
+  left: -52%;
+}
+
+.box-transform1 {
+  position: absolute;
+  transform: rotate(-90deg);
+  right: -260px;
+  top: 55%;
+}
+
+.box-transform2 {
+  position: absolute;
+  transform: rotate(-90deg);
+  left: -230px;
+  bottom: 250px;
+}
+/* information */
+
+.bgInfoBackground {
+  background-color: rgba(255, 255, 255, 0.733);
+}
+
+#information {
+  border-bottom: 5px solid black;
+}
+
+.information {
+  background: url(../img/photo4.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* protocolAttention */
+.this-animate8:hover {
+  transform: scale(1.1);
+}
+
+/* responsive */
+:root {
+  font-size: 25px;
+}
+@media (max-width: 1600px) {
+  :root {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 1000px) {
+  :root {
+    font-size: 14px;
+  }
+
+  .box-transform1 {
+    right: -210px;
+  }
+
+  .lineBox1 {
+    margin-bottom: 12px;
+  }
+
+  .box-transform2 {
+    left: -170px;
+    bottom: 186px;
+  }
+}
+
+@media (max-width: 768px) {
+  .display-5 {
+    font-size: 2.5rem;
+  }
+
+  .display-6 {
+    font-size: 1.3rem;
+  }
+
+  .box-transform1 {
+    position: relative;
+    transform: rotate(0deg);
+    right: 0;
+    top: 0;
+  }
+
+  .box-transform2 {
+    position: relative;
+    transform: rotate(0deg);
+    left: 0;
+    bottom: 0;
+  }
+
+  .lineBox1 {
+    margin-bottom: 10px;
+  }
+
+  .box1 {
+    width: 100%;
+    height: 100%;
+    right: 0;
+  }
+
+  .box2 {
+    width: 100%;
+    height: 90%;
+    bottom: 0;
+    top: -20px;
+    left: 0%;
+  }
+  .banner {
+    height: 70vh;
+    background-position-x: 75%;
+  }
+  audio {
+    min-width: 135px;
+    width: 100%;
+    height: 25px;
+  }
+}
+
+@media (max-width: 500px) {
+  .display-7 {
+    font-size: 1rem;
+  }
+  .display-8 {
+    font-size: 0.7rem;
+  }
+}
+
+/* parallax */
+.this-animate,
+.this-animate2,
+.this-animate4,
+.this-animate6,
+.this-animate7 {
+  transition: 0.75s;
+  opacity: 1;
+  transform: none;
+}
+
+.this-animate3,
+.this-animate5,
+.this-animate8 {
+  transition: 1.5s;
+  opacity: 1;
+  transform: 0;
+}
+
+/*  */
+
+.animate-1,
+.animate-3,
+.animate-5,
+.animate-7,
+.animate-8 {
+  transform: translateY(-100px);
+  opacity: 0;
+}
+
+.animate-2 {
+  opacity: 0;
+  transform: scale(0.1);
+}
+
+.animate-4,
+.animate-6 {
+  transform: translateX(-200px);
+  opacity: 0;
+}

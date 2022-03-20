@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "montserratsemibold";
+  src: url("../font/montserrat-semibold/montserrat-semibold-webfont.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "montserratextrabold";
+  src: url("../font/montserrat-extrabold/montserrat-extrabold-webfont.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "rage-italic";
+  src: url("../font/rage-italic/RAGE.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* class */
+.montserratextrabold {
+  font-family: "montserratextrabold";
+}
+
+.montserratsemibold {
+  font-family: "montserratsemibold";
+}
+
+.rage-italic {
+  font-family: "rage-italic";
+}
